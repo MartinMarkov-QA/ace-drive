@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* .menu {
+    background-color: aqua;
+    padding: 15px;
+} */
+
+
