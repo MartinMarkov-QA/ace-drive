@@ -10,3 +10,22 @@
 	box-shadow: 0 8px 6px -6px #89d2dc;
 }
 
+.crt-btn {
+    color: white;
+    background-image: linear-gradient(to bottom,#6564db, black );
+    border: none;
+    border-bottom: 1px solid #6564db;
+}
+
+.card-bg {
+    background-image: linear-gradient(to bottom, black, #6564db  );
+}
+
+.card-body {
+    color: white;
+}
+
+.card img {
+    border-radius: 25px;
+}
+
