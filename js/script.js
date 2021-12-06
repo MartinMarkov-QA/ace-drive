@@ -1,14 +1,19 @@
-// let homeSection = document.querySelector('.home');
-// let navbarToggler = document.querySelector('.navbar-toggler');
+// Dropdown menu show/hide on hover logic
+let dropdownBtn = document.querySelector('.dropdown');
+let dropdown_menu = document.querySelector('.dropdown-menu');
 
-// navbarToggler.addEventListener('click', () => {
-//     if (navbarToggler.classList.contains('collapsed')) {
-//         // homeSection.style.height = '100vh'
-//         console.log('closed');
-//     }   else {
-//         // homeSection.style.height = '130vh'
-//         console.log('open');
-//     }
-// })
+dropdownBtn.addEventListener('mouseenter', () => {
+  dropdown_menu.style.display = 'inline-block';
+})
 
-// console.log(homeSection, navbarToggler);
+dropdown_menu.addEventListener('mouseenter', () => {
+  dropdown_menu.style.display = 'inline-block';
+})
+
+dropdownBtn.addEventListener('mouseleave', () => {
+  dropdown_menu.style.display = 'none';
+})
+
+dropdown_menu.addEventListener('mouseleave', () => {
+  dropdown_menu.style.display = 'none';
+})

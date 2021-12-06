@@ -1,0 +1,32 @@
+#why-choose {
+  background-image: linear-gradient(to bottom,#6564db, #000000);
+  /* background-color: #6564db; */
+  color: white;
+  /* height: 100vh; */
+}
+
+@media only screen and (min-width: 992px) {
+  #why-choose {
+        height: 100vh;
+  }
+}
+
+#why-choose .row {
+  color: white;
+    background-image: linear-gradient(to bottom,#6564db, black );
+    border: none;
+    border-bottom: 1px solid #6564db;
+    box-shadow: 0px 0px 90px 30px black;
+}
+
+#why-choose h1 {
+  letter-spacing: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px #89d2dc;
+	  -moz-box-shadow: 0 8px 6px -6px #89d2dc;
+	  box-shadow: 0 8px 6px -6px #89d2dc;
+}
+
+#why-choose .bi-emoji-smile {
+  font-size: 100px;
+}
+
