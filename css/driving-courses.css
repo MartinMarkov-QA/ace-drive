@@ -1,5 +1,4 @@
 #driving-courses {
-    /* height: 100vh; */
     background-image: linear-gradient(to bottom, black, #6564db );
 }
 
@@ -8,10 +7,19 @@
     -webkit-box-shadow: 0 8px 6px -6px #89d2dc;
 	  -moz-box-shadow: 0 8px 6px -6px #89d2dc;
 	  box-shadow: 0 8px 6px -6px #89d2dc;
+      color: #89d2dc;
+}
+
+#driving-courses h5 {
+    color: white;
+}
+
+#driving-courses p {
+    color: white;
 }
 
 .crt-btn {
-    color: white;
+    color: #89d2dc;
     background-image: linear-gradient(to bottom,#6564db, black );
     border: none;
     border-bottom: 1px solid #6564db;
@@ -62,13 +70,13 @@
     animation: move-chevron 3s ease-out 2s infinite;
   }
 
-  .chevron-dcm:before, .chevron-dcm:after {
+  #driving-courses .chevron-dcm:before, #driving-courses .chevron-dcm:after {
     content: '';
     position: absolute;
     top: 0;
     height: 100%;
     width: 50%;
-    background: white;
+    background: black;
   }
 
   .chevron-dcm:before {

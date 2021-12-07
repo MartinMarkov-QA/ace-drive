@@ -1,8 +1,6 @@
 #why-choose {
   background-image: linear-gradient(to bottom,#6564db, #000000);
-  /* background-color: #6564db; */
   color: white;
-  /* height: 100vh; */
 }
 
 @media only screen and (min-width: 992px) {
@@ -14,8 +12,6 @@
 #why-choose .row {
   color: white;
     background-image: linear-gradient(to bottom,#6564db, black );
-    border: none;
-    border-bottom: 1px solid #6564db;
     box-shadow: 0px 0px 90px 30px black;
 }
 
@@ -24,9 +20,30 @@
     -webkit-box-shadow: 0 8px 6px -6px #89d2dc;
 	  -moz-box-shadow: 0 8px 6px -6px #89d2dc;
 	  box-shadow: 0 8px 6px -6px #89d2dc;
+    color: #89d2dc;
 }
 
 #why-choose .bi-emoji-smile {
   font-size: 100px;
 }
 
+#why-choose .why-choose-left {
+  color: #89d2dc;
+}
+
+#why-choose .why-choose-right {
+  color: white;
+  background-image: linear-gradient(to bottom,#6564db, black );
+  border: none;
+  border-bottom: 1px solid #6564db;
+  box-shadow: 0px 0px 90px 30px black;
+}
+
+#why-choose .chevron-dcm:before, .chevron-dcm:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: #6564db;
+}
