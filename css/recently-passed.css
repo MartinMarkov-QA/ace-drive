@@ -1,0 +1,21 @@
+#recently-passed {
+    background-image: linear-gradient(to bottom,#000000, #6564db);
+    color: white;
+  }
+
+#recently-passed h1 {
+    letter-spacing: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px #89d2dc;
+    -moz-box-shadow: 0 8px 6px -6px #89d2dc;
+    box-shadow: 0 8px 6px -6px #89d2dc;
+    color: #89d2dc;
+}
+
+#recently-passed .chevron-dcm:before, .chevron-dcm:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: black;
+}

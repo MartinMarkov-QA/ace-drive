@@ -39,11 +39,11 @@
   box-shadow: 0px 0px 90px 30px black;
 }
 
-#why-choose .chevron-dcm:before, .chevron-dcm:after {
+#why-choose .chevron-dcm:before, #why-choose .chevron-dcm:after {
   content: '';
   position: absolute;
   top: 0;
   height: 100%;
   width: 50%;
-  background: #6564db;
+  background: #89d2dc;
 }
