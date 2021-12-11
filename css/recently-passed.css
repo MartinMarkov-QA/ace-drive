@@ -1,6 +1,14 @@
 #recently-passed {
     background-image: linear-gradient(to bottom,#000000, #6564db);
     color: white;
+    height: 100vh;
+}
+
+@media only screen and (min-width: 992px) {
+    #recently-passed {
+        height: 100vh;
+        padding-top: 5% !important;
+    }
   }
 
 #recently-passed h1 {

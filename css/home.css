@@ -17,6 +17,15 @@ header .logo-header {
     }
   }
 
+@media only screen and (min-width: 992px) {
+    header {
+      padding-bottom: 5%;
+    }
+    .home {
+      height: 100vh;
+    }
+}
+
 header .header-phone {
     margin-right: 20px;
 }
