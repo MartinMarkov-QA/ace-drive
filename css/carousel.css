@@ -42,7 +42,12 @@
 
  @media (max-width:768px) {
    .grid.tinyslide {
-     --tinyslide-size:1;
+     --tinyslide-size:2;
    }
  }
- 
+
+ @media (max-width:576px) {
+  .grid.tinyslide {
+    --tinyslide-size:1;
+  }
+}

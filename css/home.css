@@ -17,12 +17,12 @@ header .logo-header {
     }
   }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
     header {
       padding-bottom: 5%;
     }
     .home {
-      height: 100vh;
+      height: 80vh;
     }
 }
 
