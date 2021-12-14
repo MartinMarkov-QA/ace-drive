@@ -4,6 +4,10 @@
     height: 100vh;
 }
 
+#recently-passed .container {
+    box-shadow: 0px 0px 90px 30px black;
+}
+
 @media only screen and (min-width: 992px) {
     #recently-passed {
         height: 100vh;
