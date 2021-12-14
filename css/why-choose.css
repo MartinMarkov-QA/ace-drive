@@ -10,11 +10,11 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   #why-choose {
         height: 100vh;
   }
-}
+} */
 
 #why-choose .row {
   color: white;
