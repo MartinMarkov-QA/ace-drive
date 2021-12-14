@@ -1,7 +1,6 @@
 #recently-passed {
     background-image: linear-gradient(to bottom,#000000, #6564db);
     color: white;
-    height: 100vh;
 }
 
 #recently-passed .container {
