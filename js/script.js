@@ -1,19 +1,11 @@
-// Dropdown menu show/hide on hover logic
-let dropdownBtn = document.querySelector('.dropdown');
-let dropdown_menu = document.querySelector('.dropdown-menu');
+// Triggering header phone icon animation shake
 
-dropdownBtn.addEventListener('mouseenter', () => {
-  dropdown_menu.style.display = 'inline-block';
-})
+let phone = document.querySelector('.telephone-icon');
 
-dropdown_menu.addEventListener('mouseenter', () => {
-  dropdown_menu.style.display = 'inline-block';
-})
+setInterval(() => {
+  phone.classList.remove('telephone-icon');
+}, 2000);
 
-dropdownBtn.addEventListener('mouseleave', () => {
-  dropdown_menu.style.display = 'none';
-})
-
-dropdown_menu.addEventListener('mouseleave', () => {
-  dropdown_menu.style.display = 'none';
-})
+setInterval(() => {
+  phone.classList.add('telephone-icon');
+}, 3000);
