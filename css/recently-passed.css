@@ -13,6 +13,14 @@
     }
   }
 
+@media only screen and (min-width: 768px) {
+    #recently-passed {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 #recently-passed h1 {
     letter-spacing: 5px;
     -webkit-box-shadow: 0 8px 6px -6px #89d2dc;

@@ -8,6 +8,14 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  #driving-courses {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  }
+}
+
 #driving-courses h1 {
     letter-spacing: 5px;
     -webkit-box-shadow: 0 8px 6px -6px #89d2dc;
