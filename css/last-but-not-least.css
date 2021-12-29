@@ -15,6 +15,15 @@
     }
   }
 
+  @media only screen and (max-width: 768px) {
+    .footer-top-logo {
+      margin: auto;
+    }
+    .footer-bottom-two-logos {
+          justify-content: center;
+    }
+  }
+
   #last-but-not-least .row {
     color: white;
     background-image: linear-gradient(to bottom,#6564db, black );
