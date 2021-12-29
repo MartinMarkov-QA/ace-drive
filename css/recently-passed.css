@@ -10,7 +10,6 @@
 @media only screen and (min-width: 992px) {
     #recently-passed {
         height: 100vh;
-        padding-top: 5% !important;
     }
   }
 

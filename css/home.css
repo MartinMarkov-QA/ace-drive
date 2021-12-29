@@ -138,6 +138,10 @@ header .dropdown-menu li a {
 /*  Home  */
 .home {
     background-color: black;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .home .h1 {
