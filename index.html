@@ -27,76 +27,80 @@
 
 <body>
     <!-- Home Section> -->
-    <header>
-        <div class="container position-relative">
-            <div class="open-hours d-md-flex pt-3">
-                <div class="ms-auto me-md-1">
-                    <i class="bi bi-clock me-2"></i><span class="me-sm-5">Monday - Saturday 8am-8pm</span>
-                </div>
-                <div>
-                    <i class="bi bi-telephone telephone-icon me-2"></i><span class="header-phone">075 61 84 36 33</span>
-                </div>
+    <header class="pt-md-5 pb-md-5">
+        <div class="container d-md-flex">
+            <div class="p-3 ps-md-0 text-center d-md-flex align-items-center">
+                <a class="" href="#"><img class="logo-header" src="./images/logo-header-white.png" alt="" /></a>
             </div>
-            <nav class="navbar navbar-expand-md navbar-light">
-                <div class="container-fluid justify-content-end ps-0">
-                    <a class="navbar-brand me-auto position-absolute start-0 pb-md-5" href="#"><img class="logo-header"
-                            src="./images/logo-header-white.png" alt="" /></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mb-lg-0 ms-auto fs-4">
-                            <li class="nav-item">
-                                <a class="nav-link nav-custom pe-4" aria-current="page" href="#">HOME</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle nav-custom pe-4" href="#"
-                                    id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    PRICES
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="#">DRIVING LESSONS</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">INTENSIVE DRIVING LESSONS</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">AUTOMATIC DRIVING</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link nav-custom pe-4" href="#">JOIN</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link nav-custom" href="#">CONTACT US</a>
-                            </li>
-                        </ul>
+            <div class="ms-md-auto">
+                <div class="text-center open-hours d-md-flex">
+                    <div class="p-1 pe-md-4">
+                        <i class="bi bi-clock pe-2"></i><span class="">Monday - Saturday 8am-8pm</span>
+                    </div>
+                    <div class="p-1">
+                        <i class="bi bi-telephone pe-2 telephone-icon"></i><span class="header-phone">075 61 84 36
+                            33</span>
                     </div>
                 </div>
-            </nav>
+                <nav class="navbar navbar-expand-md navbar-light fs-md-1">
+                    <div class="container-fluid justify-content-end ps-md-0 pe-md-0">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-md-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-custom pe-md-4" aria-current="page" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle nav-custom pe-md-4" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        PRICES
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item pe-md-4" href="#">DRIVING LESSONS</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item pe-md-4" href="#">INTENSIVE DRIVING LESSONS</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item pe-md-4" href="#">AUTOMATIC DRIVING</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-custom pe-md-4" href="#">JOIN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-custom pe-md-1" href="#">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
     </header>
     <section class="home">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 align-self-center pb-5 pb-md-0">
-                    <span class="home-title text-center h1 pb-3 d-block">DRIVE WITH US</span>
+                <div class="col-md-6">
+                    <span class="home-title">DRIVE WITH US</span>
                     <button type="button" class="btn btn-primary btn-lg d-block m-auto home-cta">
                         Book Now
                     </button>
                 </div>
-                <div class="col-md-6 overflow-auto h-auto">
+                <div class="col-md-6">
                     <img class="h-auto w-100" src="./images/home-img.png" alt="" />
                 </div>
             </div>
         </div>
         <!-- Scroll-icon -->
-        <a href="#driving-courses" class="d-block pb-5 pt-5">
-            <div class="container-chevron pb-5">
+        <a href="#driving-courses" class="">
+            <div class="container-chevron">
                 <div class="chevron"></div>
                 <div class="chevron"></div>
                 <div class="chevron"></div>
@@ -255,17 +259,18 @@
             </div>
             <div class="footer row p-5">
                 <div class="col-md-5 pb-3 pb-md-0">
-                        <div class="h6 p-2">
-                            <div class="footer-top-logo" style="width: 200px;"><img style="width: 100%;" src="./images/logo-header-white.png" alt=""></div>
+                    <div class="h6 p-2">
+                        <div class="footer-top-logo" style="width: 200px;"><img style="width: 100%;"
+                                src="./images/logo-header-white.png" alt=""></div>
+                    </div>
+                    <div class="d-flex footer-bottom-two-logos">
+                        <div class="h6 p-1">
+                            <div style="width: 100px;"><img style="width: 100%;" src="./images/dvs.png" alt=""></div>
                         </div>
-                        <div class="d-flex footer-bottom-two-logos">
-                            <div class="h6 p-1">
-                                <div style="width: 100px;"><img style="width: 100%;" src="./images/dvs.png" alt=""></div>
-                            </div>
-                            <div class="h6 p-1">
-                                <div style="width: 100px;"><img style="width: 100%;" src="./images/dia.png" alt=""></div>
-                            </div>
+                        <div class="h6 p-1">
+                            <div style="width: 100px;"><img style="width: 100%;" src="./images/dia.png" alt=""></div>
                         </div>
+                    </div>
                 </div>
                 <div class="col-md-7 d-flex flex-column justify-content-center pb-3 pb-md-0">
                     <div class="col-md-12 d-flex justify-content-around flex-wrap pb-4">
@@ -288,10 +293,12 @@
                     <div class="col-md-12 d-flex flex-column justify-content-center pb-3 pb-md-0">
                         <div class="d-flex justify-content-around flex-wrap">
                             <div class="h6 text-center">
-                                <i class="bi bi-telephone telephone-icon me-2"></i><span class="header-phone">075 61 84 36 33</span>
+                                <i class="bi bi-telephone telephone-icon me-2"></i><span class="header-phone">075 61 84
+                                    36 33</span>
                             </div>
                             <div class="h6 text-center">
-                                <i class="bi bi-envelope me-2"></i><span class="header-phone">vasko123@hotmail.co.uk</span>
+                                <i class="bi bi-envelope me-2"></i><span
+                                    class="header-phone">vasko123@hotmail.co.uk</span>
                             </div>
                         </div>
                     </div>

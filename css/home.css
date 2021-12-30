@@ -4,26 +4,8 @@ header {
 }
 
 header .logo-header {
-    width: 150px;
+    width: 185px;
     height: auto;
-}
-
-@media only screen and (max-width: 768px) {
-    .navbar-brand {
-      position: static !important;
-    }
-    .open-hours {
-        padding-bottom: 10px;
-    }
-  }
-
-@media only screen and (min-width: 768px) {
-    header {
-      padding-bottom: 5%;
-    }
-    .home {
-      height: 80vh;
-    }
 }
 
 header .telephone-icon::before  {
@@ -103,16 +85,16 @@ header .telephone-icon::before  {
   }
 }
 
-header .header-phone {
-    margin-right: 20px;
-}
-
 header .open-hours {
     color: #6564db;
 }
 
 header .open-hours i {
     font-size: 20px;
+}
+
+header .navbar-light {
+  font-size: 1.35em;
 }
 
 header .navbar-nav .nav-custom {
@@ -128,7 +110,7 @@ header .navbar-toggler {
 }
 
 header ul {
-  letter-spacing: 0.6px;
+  letter-spacing: 1.13px;
 }
 
 header .dropdown-menu li a {
