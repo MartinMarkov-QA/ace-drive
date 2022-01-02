@@ -21,7 +21,7 @@
     -webkit-box-shadow: 0 8px 6px -6px #89d2dc;
 	  -moz-box-shadow: 0 8px 6px -6px #89d2dc;
 	  box-shadow: 0 8px 6px -6px #89d2dc;
-      color: #89d2dc;
+    color: #89d2dc;
 }
 
 #driving-courses h5 {
@@ -84,7 +84,7 @@
     animation: move-chevron 3s ease-out 2s infinite;
   }
 
-  #driving-courses .chevron-dcm:before, #driving-courses .chevron-dcm:after {
+  .driving-courses .chevron-dcm:before, #driving-courses .chevron-dcm:after {
     content: '';
     position: absolute;
     top: 0;
