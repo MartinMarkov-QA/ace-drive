@@ -47,7 +47,7 @@
   box-shadow: 0px 0px 90px 30px black;
 }
 
-#why-choose .chevron-dcm:before, #why-choose .chevron-dcm:after {
+.why-choose .chevron-dcm:before, .why-choose .chevron-dcm:after {
   content: '';
   position: absolute;
   top: 0;

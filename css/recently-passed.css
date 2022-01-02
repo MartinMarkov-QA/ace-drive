@@ -1,5 +1,5 @@
 #recently-passed {
-    background-image: linear-gradient(to bottom,#000000, #6564db);
+    background-color: black;
     color: white;
 }
 
@@ -29,11 +29,11 @@
     color: #89d2dc;
 }
 
-#recently-passed .chevron-dcm:before, .chevron-dcm:after {
+.recently-passed .chevron-dcm:before, .chevron-dcm:after {
     content: '';
     position: absolute;
     top: 0;
     height: 100%;
     width: 50%;
-    background: black;
+    background: #89d2dc;
 }

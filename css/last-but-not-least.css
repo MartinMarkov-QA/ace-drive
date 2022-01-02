@@ -1,5 +1,5 @@
 #last-but-not-least {
-    background-image: linear-gradient(to bottom,#6564db, #000000);
+    background-image: linear-gradient(to bottom, #000000, #6564db);
     color: white;
 }
 
@@ -29,7 +29,7 @@
 
   #last-but-not-least .row {
     color: white;
-    background-image: linear-gradient(to bottom,#6564db, black );
+    background-image: linear-gradient(to bottom black,#6564db );
     box-shadow: 0px 0px 90px 30px black;
   }
   
@@ -48,7 +48,7 @@
   #last-but-not-least a {
     color: #89d2dc;
     text-decoration: none;
-    transition: 1s;
+    transition: 0.5s;
   }
 
   #last-but-not-least a:hover {
