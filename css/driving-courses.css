@@ -4,7 +4,7 @@
 
 @media only screen and (min-width: 992px) {
   #driving-courses {
-    height: 100vh;
+    /* height: 100vh; */
   }
 }
 
@@ -49,10 +49,21 @@
 
 .card-bg {
     background-image: linear-gradient(to bottom, black, #6564db  );
+    height: 100%;
 }
 
 .card-body {
     color: white;
+}
+
+@media screen and (min-width: 992px){
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-body a {
+    margin-top: auto;
+  }
 }
 
 .card img {
