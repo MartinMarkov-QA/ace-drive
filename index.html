@@ -343,21 +343,22 @@
             </div>
             <div class="modal-body">
               <form action="https://formsubmit.co/martin.markov1980@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
                 <div class="mb-3">
                   <label for="Full name" class="col-form-label">Recipient:</label>
-                  <input type="text" class="form-control" id="Full name" placeholder="Full name*" required>
+                  <input type="text" class="form-control" id="Full name" name="Full name" placeholder="Full name*" required>
                 </div>
                 <div class="mb-3">
-                    <input type="text" class="form-control" id="Phone" placeholder="Phone*" required>
+                    <input type="text" class="form-control" id="Phone" name="Phone" placeholder="Phone*" required>
                 </div>
                 <div class="mb-3">
-                    <input type="text" class="form-control" id="Postcode" placeholder="Postcode*" required>
+                    <input type="text" class="form-control" id="Postcode" name="Postcode" placeholder="Postcode*" required>
                 </div>
                 <div class="mb-3">
-                    <input type="email" class="form-control" id="Email Address" placeholder="Email Address*" required>
+                    <input type="email" class="form-control" id="Email Address" name="Email Address" placeholder="Email Address*" required>
                 </div>
                 <div class="mb-3">
-                    <textarea type="text-area" class="form-control" id="Message" placeholder="Message*" required></textarea>
+                    <textarea type="text-area" class="form-control" id="Message" name="Message" placeholder="Message*" required></textarea>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
