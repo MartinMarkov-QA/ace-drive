@@ -75,7 +75,7 @@
                                     <a class="nav-link nav-custom pe-md-4" href="#">JOIN</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link nav-custom pe-md-1" href="#">CONTACT US</a>
+                                    <a class="nav-link nav-custom pe-md-1" data-bs-toggle="modal" data-bs-target="#Contact-Us" href="#">CONTACT US</a>
                                 </li>
                             </ul>
                         </div>
@@ -333,6 +333,42 @@
         !function (t) { var e = function () { window.requirejs && !window.whatsAppWidgetClient && (requirejs.config({ paths: { GlassixWhatsAppWidgetClient: "https://cdn.glassix.com/clients/whatsapp.widget.1.2.min.js" } }), require(["GlassixWhatsAppWidgetClient"], function (t) { window.whatsAppWidgetClient = new t(window.glassixWidgetOptions), whatsAppWidgetClient.attach() })), window.GlassixWhatsAppWidgetClient && "function" == typeof window.GlassixWhatsAppWidgetClient ? (window.whatsAppWidgetClient = new GlassixWhatsAppWidgetClient(t), whatsAppWidgetClient.attach()) : i() }, i = function () { a.onload = e, a.src = "https://cdn.glassix.net/clients/whatsapp.widget.1.2.min.js", s && s.parentElement && s.parentElement.removeChild(s), n.parentNode.insertBefore(a, n) }, n = document.getElementsByTagName("script")[0], s = document.createElement("script"); s.async = !0, s.type = "text/javascript", s.crossorigin = "anonymous", s.id = "glassix-whatsapp-widget-script"; var a = s.cloneNode(); s.onload = e, s.src = "https://cdn.glassix.com/clients/whatsapp.widget.1.2.min.js", !document.getElementById(s.id) && document.body && (n.parentNode.insertBefore(s, n), s.onerror = i) }(glassixWidgetOptions);
     </script>
     <!-- End of Glassix WhatsApp Widget -->
+    <!-- Start Contact Us Modal -->
+    <div class="modal fade" id="Contact-Us" tabindex="-1" aria-labelledby="Contact-Us" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title h1" id="Contact-Us-Label">Contact Us</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form action="https://formsubmit.co/martin.markov1980@gmail.com" method="POST">
+                <div class="mb-3">
+                  <label for="Full name" class="col-form-label">Recipient:</label>
+                  <input type="text" class="form-control" id="Full name" placeholder="Full name*" required>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="Phone" placeholder="Phone*" required>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="Postcode" placeholder="Postcode*" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="Email Address" placeholder="Email Address*" required>
+                </div>
+                <div class="mb-3">
+                    <textarea type="text-area" class="form-control" id="Message" placeholder="Message*" required></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Send message</button>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- End Contact Us Modal -->
 </body>
 
 </html>
