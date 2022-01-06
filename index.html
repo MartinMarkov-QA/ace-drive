@@ -89,7 +89,7 @@
             <div class="row">
                 <div class="col-md-6 mb-4 d-flex flex-column align-items-center justify-content-center">
                     <span class="h1 d-inline-block home-title mb-4">DRIVE WITH US</span>
-                    <button type="button" class="btn btn-primary btn-lg d-inline-block home-cta">
+                    <button type="button" class="btn btn-primary btn-lg d-inline-block home-cta" data-bs-toggle="modal" data-bs-target="#Book-Now">
                         Book Now
                     </button>
                 </div>
@@ -370,7 +370,73 @@
         </div>
       </div>
     <!-- End Contact Us Modal -->
+    <!-- Start Book Now Modal -->
+    <div class="modal fade" id="Book-Now" tabindex="-1" aria-labelledby="Book-Now" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title h1" id="Book-Now-Label">Contact Us</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form action="https://formsubmit.co/0566126a9a6e0e454471fe11aaab8236" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://martin-markov1980.github.io/ace-drive/">
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="Full name" name="Full Name" placeholder="Full name*" required>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="Phone" name="Phone" placeholder="Phone*" required>
+                </div>
+                <div class="input-group mb-3">
+                    <select class="form-select" id="inputGroupSelect01" required>
+                      <option value="" name="Transmission">Transmission</option>
+                      <option value="Manual" name="Manual">Manual</option>
+                      <option value="Automatic" name="Automatic">Automatic</option>
+                    </select>
+                </div>
+                <div class="input-group mb-3">
+                    <select class="form-select" id="inputGroupSelect01" required>
+                      <option value="" name="Hours">Hours</option>
+                      <option value="1" name="1">1</option>
+                      <option value="2" name="2">2</option>
+                      <option value="5" name="5">5</option>
+                      <option value="10" name="10">10</option>
+                      <option value="15" name="15">15</option>
+                      <option value="20" name="20">20</option>
+                    </select>
+                </div>
+                <div class="input-group mb-3">
+                    <select class="form-select" id="inputGroupSelect01" required>
+                      <option value="" name="Availability">Availability</option>
+                      <option value="Monday" name="Monday">Monday</option>
+                      <option value="Tuesday" name="Tuesday">Tuesday</option>
+                      <option value="Wednesday" name="Wednesday">Wednesday</option>
+                      <option value="Thursday" name="Thursday">Thursday</option>
+                      <option value="Friday" name="Friday">Friday</option>
+                      <option value="Saturday" name="Saturday">Saturday</option>
+                      <option value="Sunday" name="Sunday">Sunday</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="Postcode" name="Postcode" placeholder="Postcode*" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="Email Address" name="Email Address" placeholder="Email Address*" required>
+                </div>
+                <div class="mb-3">
+                    <textarea type="text-area" class="form-control" id="Message" name="Message" placeholder="Message*" required></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Send message</button>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- End Book Now Modal -->
 </body>
 
 </html>
-<!-- 
