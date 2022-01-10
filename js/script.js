@@ -1,5 +1,4 @@
 // Triggering header phone icon animation shake
-
 let phone = document.querySelector('.telephone-icon');
 
 setInterval(() => {

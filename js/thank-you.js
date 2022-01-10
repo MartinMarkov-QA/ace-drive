@@ -1,4 +1,4 @@
-
+// Redirect the 'Thank you' page to the home page after 10 seconds. 
 let seconds = document.getElementById('seconds');
 
 setInterval(() => {
@@ -8,4 +8,3 @@ setInterval(() => {
   }
   console.log(1);
 }, 1000)
-
