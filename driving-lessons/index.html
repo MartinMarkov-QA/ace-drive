@@ -15,13 +15,11 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/tinyslide@latest/dist/index.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="./css/base.css" />
-    <link rel="stylesheet" href="./css/home.css" />
-    <link rel="stylesheet" href="./css/driving-courses.css" />
-    <link rel="stylesheet" href="./css/why-choose.css" />
-    <link rel="stylesheet" href="./css/recently-passed.css" />
-    <link rel="stylesheet" href="./css/carousel.css">
-    <link rel="stylesheet" href="./css/last-but-not-least.css">
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/driving-courses.css" />
+    <link rel="stylesheet" href="../css/last-but-not-least.css">
+    <link rel="stylesheet" href="../css/driving-lessons.css">
     <title>Document</title>
 </head>
 
@@ -30,7 +28,7 @@
     <header class="pt-3 pb-3 pt-md-5 pb-md-5">
         <div class="container d-md-flex pb-md-5">
             <div class="p-3 ps-md-0 text-center d-md-flex align-items-start">
-                <a class="" href="#"><img class="logo-header" src="./images/logo-header-white.png" alt="" /></a>
+                <a class="" href="#"><img class="logo-header" src="../images/logo-header-white.png" alt="" /></a>
             </div>
             <div class="ms-md-auto pb-md-5">
                 <div class="pb-3 pb-md-0 text-center open-hours d-md-flex">
@@ -61,7 +59,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="dropdown-item pe-md-4" href="/driving-lessons">DRIVING LESSONS</a>
+                                            <a class="dropdown-item pe-md-4" href="#">DRIVING LESSONS</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item pe-md-4" href="#">INTENSIVE DRIVING LESSONS</a>
@@ -83,69 +81,77 @@
                 </nav>
             </div>
         </div>
-    </header>
-    <section class="home pt-2 pb-md-5">
-        <div class="container pb-md-5">
-            <div class="row">
-                <div class="col-md-6 mb-4 d-flex flex-column align-items-center justify-content-center">
-                    <span class="h1 d-inline-block home-title mb-4">DRIVE WITH US</span>
-                    <button type="button" class="btn btn-primary btn-lg d-inline-block home-cta" data-bs-toggle="modal" data-bs-target="#Book-Now">
-                        Book Now
-                    </button>
-                </div>
-                <div class="col-md-6">
-                    <img class="h-auto w-100" src="./images/home-img.png" alt="car logo" />
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Scroll-icon -->
-    <div class="pt-5 pb-5" style="background-color: black;">
-        <div class="container pt-md-5 pb-md-5">
-            <a href="#driving-courses" class="d-block scroll-icon">
-                <div class="container-chevron">
-                    <div class="chevron"></div>
-                    <div class="chevron"></div>
-                    <div class="chevron"></div>
-                </div>
-            </a>
-        </div>
-    </div>
-    <!-- Driving Courses Manchester Section -->
+    </header>   
+    <!-- Driving Lessons Section -->
     <section id="driving-courses" class="p-sm-5 pb-sm-0 pt-sm-3">
         <div class="container">
-            <h1 class="h1 text-center pb-2 mb-5">DRIVING COURSES MANCHESTER</h1>
-            <div class="row pt-5 p-sm-5 pb-md-0">
+            <h1 class="h1 text-center pb-2 mb-5">DRIVING LESSONS</h1>
+            <div class="row pt-5 p-sm-5 pb-sm-0 pb-md-0">
                 <div class="col-md-12 col-lg-4 mb-5 mb-md-0 pb-md-5 my-xl-0">
-                    <div class="card card-bg m-auto">
-                        <img src="./images/dm1.jpg" class="card-img-top p-3" alt="driving-lessons">
-                        <div class="card-body">
-                            <h5 class="card-title">Driving Lessons</h5>
-                            <hr>
-                            <p class="card-text">Offers from £20 per hour!</p>
-                            <a href="/driving-lessons" class="btn crt-btn d-block">SEE PRICING</a>
+                    <div class="card card-bg m-auto p-4">
+                        <h2 class="hours text-center p-4 m-0">1 HOUR</h2>
+                        <hr class="mt-0 mb-0">
+                        <div class="card-body pt-0">
+                            <p class="card-title p-4 pb-5 text-center h2 prize">£29</p>
+                            <p class="card-text pb-3">*Prices may vary depending on the area we cover.</p>
+                            <a href="#" class="btn crt-btn d-block">BOOK NOW</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mb-5 mb-md-0 pb-md-5 my-xl-0">
-                    <div class="card card-bg m-auto">
-                        <img src="./images/dm2.jpg" class="card-img-top p-3" alt="driving-lessons">
-                        <div class="card-body">
-                            <h5 class="card-title">Intensive driving lessons</h5>
-                            <hr>
-                            <p class="card-text">Complete your driving lessons within 4-6 weeks!</p>
-                            <a href="#" class="btn crt-btn d-block">SEE PRICING</a>
+                    <div class="card card-bg m-auto p-4">
+                        <h2 class="hours text-center p-4 m-0">2 HOURS</h2>
+                        <hr class="mt-0 mb-0">
+                        <div class="card-body pt-0">
+                            <p class="card-title p-4 pb-5 text-center h2 prize">£58</p>
+                            <p class="card-text pb-3">*Prices may vary depending on the area we cover.</p>
+                            <a href="#" class="btn crt-btn d-block">BOOK NOW</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4 mb-md-0 mb-lg-5 my-xl-0 mb-xl-5 mb-xxl-5">
-                    <div class="card card-bg m-auto">
-                        <img src="./images/dm3.png" class="card-img-top p-3" alt="driving-lessons">
-                        <div class="card-body">
-                            <h5 class="card-title">Automatic driving lessons</h5>
-                            <hr>
-                            <p class="card-text">Make your driving experience easy!</p>
-                            <a href="#" class="btn crt-btn d-block">SEE PRICING</a>
+                    <div class="card card-bg m-auto p-4">
+                        <h2 class="hours text-center p-4 m-0">5 HOURS</h2>
+                        <hr class="mt-0 mb-0">
+                        <div class="card-body pt-0">
+                            <p class="card-title p-4 pb-5 text-center h2 prize">£145</p>
+                            <p class="card-text pb-3">*Prices may vary depending on the area we cover.</p>
+                            <a href="#" class="btn crt-btn d-block">BOOK NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5 p-sm-5 pb-sm-0 pb-md-0">
+                <div class="col-md-12 col-lg-4 mb-5 mb-md-0 pb-md-5 my-xl-0">
+                    <div class="card card-bg m-auto p-4">
+                        <h2 class="hours text-center p-4 m-0">10 HOURS</h2>
+                        <hr class="mt-0 mb-0">
+                        <div class="card-body pt-0">
+                            <p class="card-title p-4 pb-5 text-center h2 prize">£280</p>
+                            <p class="card-text pb-3">For people with reasonably good driving experience looking to brush up on monoeuvres.</p>
+                            <a href="#" class="btn crt-btn d-block">BOOK NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4 mb-5 mb-md-0 pb-md-5 my-xl-0">
+                    <div class="card card-bg m-auto p-4">
+                        <h2 class="hours text-center p-4 m-0">15 HOURS</h2>
+                        <hr class="mt-0 mb-0">
+                        <div class="card-body pt-0">
+                            <p class="card-title p-4 pb-5 text-center h2 prize">£420</p>
+                            <p class="card-text pb-3">Suitable for those who have done about 20 hours.</p>
+                            <a href="#" class="btn crt-btn d-block">BOOK NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4 mb-md-0 mb-lg-5 my-xl-0 mb-xl-5 mb-xxl-5">
+                    <div class="card card-bg m-auto p-4">
+                        <h2 class="hours text-center p-4 m-0">20 HOURS</h2>
+                        <hr class="mt-0 mb-0">
+                        <div class="card-body pt-0">
+                            <p class="card-title p-4 pb-5 text-center h2 prize">£540</p>
+                            <p class="card-text pb-3">Suitable for those who have had about 10 hours experience and are reasonably quick learners.</p>
+                            <a href="#" class="btn crt-btn d-block">BOOK NOW</a>
                         </div>
                     </div>
                 </div>
@@ -155,7 +161,7 @@
     <!-- Scroll-icon -->
     <div class="pt-5 pb-5 driving-courses" style="background-color: #6564db;">
         <div class="container pb-5">
-            <a href="#why-choose" class="d-block pb-5">
+            <a href="#last-but-not-least-dl" class="d-block pb-5">
                 <div class="container-chevron-dcm pt-md-5 pb-md-5">
                     <div class="chevron-dcm"></div>
                     <div class="chevron-dcm"></div>
@@ -164,91 +170,8 @@
             </a>
         </div>
     </div>
-    <!-- Why-Choose-Ace-Drive-Dt -->
-    <section id="why-choose" class="p-sm-5 pt-sm-3">
-        <div class="container">
-            <h1 class="h1 text-center pb-2 mb-5">WHY CHOOSE ACE DRIVE DT</h1>
-            <div class="row p-5 pb-0">
-                <div class="why-choose-left col-md-6 d-flex flex-column justify-content-center pb-3 pb-md-0">
-                    <h3 class="text-center mb-3">WE ARE DRIVEN BY:</h3>
-                    <hr class="mb-5">
-                    <span class="h5 pb-4 text-center">
-                        A SATISFIED CUSTOMER IS THE BEST BUSINESS
-                        STRATEGY OF ALL.
-                        <i class="bi bi-emoji-smile d-block pt-3 pb-3 pb-md-0"></i>
-                    </span>
-                </div>
-                <div class="why-choose-right col-md-6 why-choose_right_con">
-                    <div class="p-3 pt-5 text-center">
-                        <span class="h5"><i class="bi bi-check2"></i> Home Pick-ups</span>
-                    </div>
-                    <div class="p-3 text-center">
-                        <span class="h5"><i class="bi bi-check2"></i> Automatic Driving Lessons</span>
-                    </div>
-                    <div class="p-3 text-center">
-                        <span class="h5"><i class="bi bi-check2"></i> Intensive Driving Lessons</span>
-                    </div>
-                    <div class="p-3 text-center">
-                        <span class="h5"><i class="bi bi-check2"></i> One to One Tuition</span>
-                    </div>
-                    <div class="p-3 text-center">
-                        <span class="h5"><i class="bi bi-check2"></i> Student Discount</span>
-                    </div>
-                    <div class="p-3 pb-5 text-center">
-                        <span class="h5"><i class="bi bi-check2"></i> Refresher Lessons</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Scroll-icon -->
-    <div class="pt-5 pb-5 why-choose" style="background-color: black;">
-        <div class="container pb-5 pt-5">
-            <a href="#recently-passed" class="d-block pb-5">
-                <div class="container-chevron-dcm pb-5">
-                    <div class="chevron-dcm"></div>
-                    <div class="chevron-dcm"></div>
-                    <div class="chevron-dcm"></div>
-                </div>
-            </a>
-        </div>
-    </div>
-    <!-- Recently Passed -->
-    <section id="recently-passed" class="pb-5 p-sm-5 pt-sm-3">
-        <div class="container">
-            <h1 class="h1 text-center pb-2 mb-5">RECENTLY PASSED</h1>
-            <section class="grid tinyslide">
-                <div class="grid-item" style="background-image:url('./images/slider/n1.jpg');"></div>
-                <div class="grid-item" style="background-image:url('./images/slider/n2.jpg');"></div>
-                <div class="grid-item" style="background-image:url('./images/slider/n3.jpg');"></div>
-                <div class="grid-item" style="background-image:url('./images/slider/n4.jpg');"></div>
-                <div class="grid-item" style="background-image:url('./images/slider/n5.jpg');"></div>
-                <div class="grid-item" style="background-image:url('./images/slider/n6.jpg');"></div>
-                <div class="grid-item" style="background-image:url('./images/slider/n7.jpg');"></div>
-                <div class="grid-item" style="background-image:url('./images/slider/n8.jpg');"></div>
-                <div class="grid-item" style="background-image:url('./images/slider/n9.jpg');"></div>
-                <div class="grid-item" style="background-image:url('./images/slider/n10.jpg');"></div>
-                <div class="grid-item" style="background-image:url('./images/slider/n11.jpg');"></div>
-                <div class="grid-item" style="background-image:url('./images/slider/n12.jpg');"></div>
-                <div class="grid-item" style="background-image:url('./images/slider/n13.jpg');"></div>
-                <div class="grid-item" style="background-image:url('./images/slider/n14.jpg');"></div>
-            </section>
-        </div>
-    </section>
-    <!-- Scroll-icon -->
-    <div class="pt-5 pb-5 recently-passed" style="background-color: black;">
-        <div class="container pb-5 pt-md-5">
-            <a href="#last-but-not-least" class="d-block pb-5">
-                <div class="container-chevron-dcm pb-5 pt-5">
-                    <div class="chevron-dcm"></div>
-                    <div class="chevron-dcm"></div>
-                    <div class="chevron-dcm"></div>
-                </div>
-            </a>
-        </div>
-    </div>
     <!-- Last but not least -->
-    <section id="last-but-not-least" class="p-sm-5 pt-sm-3">
+    <section id="last-but-not-least-dl" class="p-sm-5 pt-sm-3">
         <div class="container d-flex flex-column h-100">
             <h1 class="h1 text-center pb-2 mb-5">LAST BUT NOT LEAST</h1>
             <div class="row p-5 mb-auto">
@@ -276,14 +199,14 @@
                 <div class="col-md-5 pb-3 pb-md-0">
                     <div class="h6 p-2">
                         <div class="footer-top-logo" style="width: 200px;"><img style="width: 100%;"
-                                src="./images/logo-header-white.png" alt=""></div>
+                                src="../images/logo-header-white.png" alt=""></div>
                     </div>
                     <div class="d-flex footer-bottom-two-logos">
                         <div class="h6 p-1">
-                            <div style="width: 100px;"><img style="width: 100%;" src="./images/dvs.png" alt=""></div>
+                            <div style="width: 100px;"><img style="width: 100%;" src="../images/dvs.png" alt=""></div>
                         </div>
                         <div class="h6 p-1">
-                            <div style="width: 100px;"><img style="width: 100%;" src="./images/dia.png" alt=""></div>
+                            <div style="width: 100px;"><img style="width: 100%;" src="../images/dia.png" alt=""></div>
                         </div>
                     </div>
                 </div>
@@ -321,7 +244,6 @@
             </div>
     </section>
 
-    <script src="./js/carousel.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
@@ -332,7 +254,7 @@
         !function (t) { var e = function () { window.requirejs && !window.whatsAppWidgetClient && (requirejs.config({ paths: { GlassixWhatsAppWidgetClient: "https://cdn.glassix.com/clients/whatsapp.widget.1.2.min.js" } }), require(["GlassixWhatsAppWidgetClient"], function (t) { window.whatsAppWidgetClient = new t(window.glassixWidgetOptions), whatsAppWidgetClient.attach() })), window.GlassixWhatsAppWidgetClient && "function" == typeof window.GlassixWhatsAppWidgetClient ? (window.whatsAppWidgetClient = new GlassixWhatsAppWidgetClient(t), whatsAppWidgetClient.attach()) : i() }, i = function () { a.onload = e, a.src = "https://cdn.glassix.net/clients/whatsapp.widget.1.2.min.js", s && s.parentElement && s.parentElement.removeChild(s), n.parentNode.insertBefore(a, n) }, n = document.getElementsByTagName("script")[0], s = document.createElement("script"); s.async = !0, s.type = "text/javascript", s.crossorigin = "anonymous", s.id = "glassix-whatsapp-widget-script"; var a = s.cloneNode(); s.onload = e, s.src = "https://cdn.glassix.com/clients/whatsapp.widget.1.2.min.js", !document.getElementById(s.id) && document.body && (n.parentNode.insertBefore(s, n), s.onerror = i) }(glassixWidgetOptions);
     </script>
     <!-- End of Glassix WhatsApp Widget -->
-    <script src="./js/script.js"></script>
+    <script src="../js/script.js"></script>
 
     <!-- Start Contact Us Modal -->
     <div class="modal fade" id="Contact-Us" tabindex="-1" aria-labelledby="Contact-Us" aria-hidden="true">

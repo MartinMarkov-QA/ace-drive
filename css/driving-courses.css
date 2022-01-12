@@ -2,12 +2,6 @@
     background-image: linear-gradient(to bottom, black, #6564db );
 }
 
-@media only screen and (min-width: 992px) {
-  #driving-courses {
-    /* height: 100vh; */
-  }
-}
-
 @media only screen and (min-width: 768px) {
   #driving-courses {
         display: flex;
