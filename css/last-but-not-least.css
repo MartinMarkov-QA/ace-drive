@@ -51,7 +51,7 @@
     transition: 0.5s;
   }
 
-  #last-but-not-least a:hover {
+  #last-but-not-least .social a:hover {
     display: inline-block;
     margin-top: -8px;
   }
@@ -64,7 +64,7 @@
     font-size: 35px;
   }
 
-  #last-but-not-least .footer a:hover {
+  #last-but-not-least .footer .footer-menu a:hover {
       display: inline-block;
       color: white;
       transform: scale(1.25);
