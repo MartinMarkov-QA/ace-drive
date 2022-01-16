@@ -3,7 +3,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  #driving-courses {
+  #driving-lessons {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -16,6 +16,14 @@
 	  -moz-box-shadow: 0 8px 6px -6px #89d2dc;
 	  box-shadow: 0 8px 6px -6px #89d2dc;
     color: #89d2dc;
+}
+
+#driving-courses h2 {
+  color: white;
+}
+
+#driving-courses .prize {
+  color: #89d2dc;
 }
 
 #driving-courses h5 {

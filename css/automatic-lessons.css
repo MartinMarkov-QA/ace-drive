@@ -1,8 +1,8 @@
-#intensive-driving-courses {
+#automatic-driving-lessons {
   background-image: linear-gradient(to bottom, #000000, #6564db);
 }
 
-#intensive-driving-courses h1{
+#automatic-driving-lessons h1{
   letter-spacing: 5px;
   -webkit-box-shadow: 0 8px 6px -6px #89d2dc;
   -moz-box-shadow: 0 8px 6px -6px #89d2dc;
@@ -10,15 +10,15 @@
   color: #89d2dc;
 }
 
-#intensive-driving-courses .hours {
+#automatic-driving-lessons .hours {
   color: white;
 }
 
-#intensive-driving-courses .prize {
+#automatic-driving-lessons .prize {
   color: #89d2dc;
 }
 
-#intensive-driving-courses hr {
+#automatic-driving-lessons hr {
   color: white;
   width: 75%;
   margin: auto;
@@ -70,7 +70,7 @@
   transition: 0.5s;
 }
 
-#last-but-not-least-dl a:hover {
+#last-but-not-least-dl .social a:hover {
   display: inline-block;
   margin-top: -8px;
 }
@@ -83,7 +83,7 @@
   font-size: 35px;
 }
 
-#last-but-not-least-dl .footer a:hover {
+#last-but-not-least-dl .footer .footer-menu a:hover {
     display: inline-block;
     color: white;
     transform: scale(1.25);
