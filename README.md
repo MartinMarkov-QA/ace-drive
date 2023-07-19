@@ -3,7 +3,7 @@
 
 <br>
 
-**This site is build with:**
+**This site is build from scratch with:**
 <br>
 <br>
 <img src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png" data-src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png" alt="Html 5 " title="Html 5 " width="64" height="64" class="lzy lazyload--done" srcset="https://cdn-icons-png.flaticon.com/128/5968/5968267.png 4x">
