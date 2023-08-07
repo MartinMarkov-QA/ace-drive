@@ -20,6 +20,6 @@ To avoid any backend logic for the site, I did a bit of a research and found thi
 https://formsubmit.co/<br> 
 which basically handle all the site form submissions and sends the results to the client email address.
 
-## Libraries, used in the site:
+## Libraries used:
 For the image slider I used **tiny-slider** library - https://github.com/ganlanyuan/tiny-slider <br>
 For the site layout and the css I used **bootstrap 5** - https://getbootstrap.com/docs/5.0/getting-started/introduction/ <br>
